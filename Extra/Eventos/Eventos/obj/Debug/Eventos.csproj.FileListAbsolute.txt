@@ -1,0 +1,11 @@
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\bin\Debug\Eventos.exe
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\bin\Debug\Eventos.pdb
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.csproj.AssemblyReference.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.csproj.SuggestedBindingRedirects.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.Form1.resources
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.exe
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Extra\Eventos\Eventos\obj\Debug\Eventos.pdb
