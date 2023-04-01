@@ -1,0 +1,10 @@
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe.config
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\bin\Debug\CalculadoraIMC.exe
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\bin\Debug\CalculadoraIMC.pdb
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.csprojAssemblyReference.cache
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.Form1.resources
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.Properties.Resources.resources
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.GenerateResource.cache
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.csproj.CoreCompileInputs.cache
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.exe
+C:\Users\0030482313028\Documents\LP2\Atividades\Atividade3\CalculadoraIMC\CalculadoraIMC\obj\Debug\CalculadoraIMC.pdb
