@@ -1,0 +1,11 @@
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.csproj.AssemblyReference.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.csproj.SuggestedBindingRedirects.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.Form1.resources
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.Properties.Resources.resources
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.csproj.GenerateResource.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\bin\Debug\Triangulo.exe.config
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\bin\Debug\Triangulo.exe
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\bin\Debug\Triangulo.pdb
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.exe
+C:\Users\gessi\OneDrive\Documentos\Fatec\LP2\Atividades\Atividade4\Triangulo\Triangulo\obj\Debug\Triangulo.pdb
