@@ -13,17 +13,18 @@ namespace PMatriz
 
         private void BtnCalcularCaracteres_Click(object sender, EventArgs e)
         {
-            string[] nomes = new string[2];
+            string[] nomes = new string[8];
+            int[] tamanhos = new int[8];
             
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < nomes.Length; i++)
             {
-                nomes[i] = Interaction.InputBox($"Digite seu nome completo:", "ENTRADA"); ;
+                nomes[i] = Interaction.InputBox($"Digite seu nome completo:", "ENTRADA");
+                tamanhos[i] = nomes[i].Replace(" ", "").Length;
             }
 
-            foreach (var item in nomes)
+            for (int i = 0; i < nomes.Length; i++)
             {
-                var nomeSemEspaco = item.Replace(" ", "");
-                lstBoxNomes.Items.Add($"O nome: {item} tem {nomeSemEspaco.Length} caracteres");
+                lstBoxNomes.Items.Add($"O nome: {nomes[i]} tem {tamanhos[i]} caracteres");
             }
         }
     }

@@ -16,11 +16,12 @@ namespace PMatriz
 
         private void BtnCalcularMedia_Click(object sender, System.EventArgs e)
         {
-            double[,] medias = new double[2, 3];
+            double[,] medias = new double[20, 3];
             double soma = 0;
-            for (int i = 0; i < 2; i++)
+            var tamanho = medias.GetLength(0);
+            for (int i = 0; i < medias.GetLength(0); i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < medias.GetLength(1); j++)
                 {
                     string input = Interaction.InputBox($"Digite a nota {j + 1} do aluno {i + 1}: ", "Entrada de Dados");
                     if (!int.TryParse(input, out int nota))
