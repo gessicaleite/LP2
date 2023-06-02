@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PContato0030482223003", "PContato0030482223003.csproj", "{FDA89CED-1503-4840-9B0D-0475D009B334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pcontatos", "..\..\..\..\Pcontatos\Pcontatos\Pcontatos.csproj", "{97D36FEA-EDA0-4613-B497-DD7F63F067A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PContato0030482223003Danilo", "..\..\..\..\..\..\Downloads\PContato0030482223003\PContato0030482223003\PContato0030482223003Danilo.csproj", "{BD02EA39-2BA5-4430-ACFF-57358BDFFEBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,14 @@ Global
 		{FDA89CED-1503-4840-9B0D-0475D009B334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA89CED-1503-4840-9B0D-0475D009B334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA89CED-1503-4840-9B0D-0475D009B334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D36FEA-EDA0-4613-B497-DD7F63F067A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D36FEA-EDA0-4613-B497-DD7F63F067A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D36FEA-EDA0-4613-B497-DD7F63F067A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D36FEA-EDA0-4613-B497-DD7F63F067A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD02EA39-2BA5-4430-ACFF-57358BDFFEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD02EA39-2BA5-4430-ACFF-57358BDFFEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD02EA39-2BA5-4430-ACFF-57358BDFFEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD02EA39-2BA5-4430-ACFF-57358BDFFEBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
