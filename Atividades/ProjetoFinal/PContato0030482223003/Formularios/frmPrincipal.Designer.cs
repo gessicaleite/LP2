@@ -61,14 +61,16 @@
             // cidadeToolStripMenuItem
             // 
             this.cidadeToolStripMenuItem.Name = "cidadeToolStripMenuItem";
-            this.cidadeToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.cidadeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cidadeToolStripMenuItem.Text = "Cidade";
+            this.cidadeToolStripMenuItem.Click += new System.EventHandler(this.cidadeToolStripMenuItem_Click);
             // 
             // contatoToolStripMenuItem
             // 
             this.contatoToolStripMenuItem.Name = "contatoToolStripMenuItem";
-            this.contatoToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.contatoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.contatoToolStripMenuItem.Text = "Contato";
+            this.contatoToolStripMenuItem.Click += new System.EventHandler(this.contatoToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 
@@ -88,8 +90,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.Name = "frmPrincipal";
             this.Text = "frmPrincipal";
+            this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

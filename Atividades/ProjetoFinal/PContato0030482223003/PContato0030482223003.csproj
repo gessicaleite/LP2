@@ -46,8 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Cidade.cs" />
+    <Compile Include="Classes\Contato.cs" />
+    <Compile Include="Formulario Original\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formulario Original\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulario Original\frmCidade.cs">
@@ -88,12 +92,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formulario Original\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formulario Original\frmContato.resx">
-      <DependentUpon>frmContato.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmCidade.resx">
       <DependentUpon>frmCidade.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,7 +124,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Formulario Original\App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

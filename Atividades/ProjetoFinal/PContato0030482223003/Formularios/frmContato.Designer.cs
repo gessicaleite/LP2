@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmContato));
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
@@ -55,7 +56,7 @@
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator();
+            this.bindingNavigator2 = new System.Windows.Forms.BindingNavigator(this.components);
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnCancelar = new System.Windows.Forms.ToolStripButton();
             this.lblIdContato = new System.Windows.Forms.Label();
@@ -75,6 +76,7 @@
             // 
             this.toolStripTextBox1.AccessibleName = "Posição";
             this.toolStripTextBox1.AutoSize = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(50, 23);
             this.toolStripTextBox1.Text = "0";
@@ -164,6 +166,7 @@
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(23, 22);
             this.btnNovo.Text = "toolStripButton6";
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // textBox4
             // 
