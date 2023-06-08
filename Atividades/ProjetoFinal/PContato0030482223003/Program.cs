@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using PContato0030482223003.Formularios;
+using System;
 using System.Windows.Forms;
 
 namespace PContato0030482223003
@@ -16,7 +14,7 @@ namespace PContato0030482223003
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmPrincipal());
         }
     }
 }
