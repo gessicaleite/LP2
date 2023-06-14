@@ -44,118 +44,131 @@
             // raGess
             // 
             this.raGess.AutoSize = true;
-            this.raGess.Location = new System.Drawing.Point(508, 321);
+            this.raGess.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.raGess.Location = new System.Drawing.Point(572, 402);
             this.raGess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.raGess.Name = "raGess";
-            this.raGess.Size = new System.Drawing.Size(98, 16);
+            this.raGess.Size = new System.Drawing.Size(124, 16);
             this.raGess.TabIndex = 21;
             this.raGess.Text = "0030482313028";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(508, 277);
+            this.label9.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(572, 346);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
+            this.label9.Size = new System.Drawing.Size(124, 16);
             this.label9.TabIndex = 20;
-            this.label9.Text = "label9";
+            this.label9.Text = "0030482223003";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(508, 238);
+            this.label10.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(572, 297);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 16);
+            this.label10.Size = new System.Drawing.Size(124, 16);
             this.label10.TabIndex = 19;
-            this.label10.Text = "label10";
+            this.label10.Text = "0030482223027";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(508, 197);
+            this.label11.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(572, 246);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(148, 16);
+            this.label11.Size = new System.Drawing.Size(124, 16);
             this.label11.TabIndex = 18;
-            this.label11.Text = "Breno de Jesus Toledo";
+            this.label11.Text = "0030482223047";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(373, 82);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(131, 95);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(430, 16);
+            this.label7.Size = new System.Drawing.Size(745, 25);
             this.label7.TabIndex = 17;
             this.label7.Text = "2º SEMESTRE NOTURNO - FATEC SOROCABA 2023 - 1 SEMESTRE ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(508, 144);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(572, 180);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 16);
+            this.label6.Size = new System.Drawing.Size(50, 25);
             this.label6.TabIndex = 16;
             this.label6.Text = "R.A";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(196, 144);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(220, 180);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 16);
+            this.label5.Size = new System.Drawing.Size(72, 25);
             this.label5.TabIndex = 15;
             this.label5.Text = "Nome";
             // 
             // lblGess
             // 
             this.lblGess.AutoSize = true;
-            this.lblGess.Location = new System.Drawing.Point(196, 321);
+            this.lblGess.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGess.Location = new System.Drawing.Point(220, 402);
             this.lblGess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGess.Name = "lblGess";
-            this.lblGess.Size = new System.Drawing.Size(234, 16);
+            this.lblGess.Size = new System.Drawing.Size(340, 16);
             this.lblGess.TabIndex = 14;
             this.lblGess.Text = "Gessica Rafaela Pinto de Araujo Leite";
             // 
             // lblDanilo
             // 
             this.lblDanilo.AutoSize = true;
-            this.lblDanilo.Location = new System.Drawing.Point(196, 277);
+            this.lblDanilo.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDanilo.Location = new System.Drawing.Point(220, 346);
             this.lblDanilo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDanilo.Name = "lblDanilo";
-            this.lblDanilo.Size = new System.Drawing.Size(44, 16);
+            this.lblDanilo.Size = new System.Drawing.Size(232, 16);
             this.lblDanilo.TabIndex = 13;
-            this.lblDanilo.Text = "label3";
+            this.lblDanilo.Text = "Danilo Gennari dos Santos";
+            this.lblDanilo.Click += new System.EventHandler(this.lblDanilo_Click);
             // 
             // lblDani
             // 
             this.lblDani.AutoSize = true;
-            this.lblDani.Location = new System.Drawing.Point(196, 238);
+            this.lblDani.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDani.Location = new System.Drawing.Point(220, 297);
             this.lblDani.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDani.Name = "lblDani";
-            this.lblDani.Size = new System.Drawing.Size(44, 16);
+            this.lblDani.Size = new System.Drawing.Size(196, 16);
             this.lblDani.TabIndex = 12;
-            this.lblDani.Text = "label2";
+            this.lblDani.Text = "Danielly Gallão Rocha";
             // 
             // lblBreno
             // 
             this.lblBreno.AutoSize = true;
-            this.lblBreno.Location = new System.Drawing.Point(196, 197);
+            this.lblBreno.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBreno.Location = new System.Drawing.Point(220, 246);
             this.lblBreno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBreno.Name = "lblBreno";
-            this.lblBreno.Size = new System.Drawing.Size(148, 16);
+            this.lblBreno.Size = new System.Drawing.Size(196, 16);
             this.lblBreno.TabIndex = 11;
             this.lblBreno.Text = "Breno de Jesus Toledo";
             // 
             // frmSobre
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.raGess);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
@@ -167,7 +180,8 @@
             this.Controls.Add(this.lblDanilo);
             this.Controls.Add(this.lblDani);
             this.Controls.Add(this.lblBreno);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmSobre";
             this.Text = "frmSobre";
             this.ResumeLayout(false);

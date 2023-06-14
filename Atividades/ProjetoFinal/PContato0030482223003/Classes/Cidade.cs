@@ -45,10 +45,8 @@ namespace PContato0030482223003
                 SqlCommand mycommand;
                 mycommand = new SqlCommand("INSERT INTO CIDADE VALUES (@nome_cidade, @uf_cidade)", frmPrincipal.conexao);
 
-                mycommand.Parameters.Add(new SqlParameter("@nome_cidade",
-               SqlDbType.VarChar)); ;
-                mycommand.Parameters.Add(new SqlParameter("@uf_cidade",
-               SqlDbType.VarChar));
+                mycommand.Parameters.Add(new SqlParameter("@nome_cidade", SqlDbType.VarChar)); ;
+                mycommand.Parameters.Add(new SqlParameter("@uf_cidade", SqlDbType.VarChar));
                 mycommand.Parameters["@nome_cidade"].Value = nomecidade;
                 mycommand.Parameters["@uf_cidade"].Value = ufcidade;
                 nReg = mycommand.ExecuteNonQuery();
@@ -67,12 +65,9 @@ namespace PContato0030482223003
             {
                 SqlCommand mycommand;
                 mycommand = new SqlCommand("UPDATE CIDADE SET nome_cidade = @nome_cidade, uf_cidade = @uf_cidade WHERE id_cidade = @id_cidade", frmPrincipal.conexao);
-                mycommand.Parameters.Add(new SqlParameter("@id_cidade",
-               SqlDbType.Int));
-                mycommand.Parameters.Add(new SqlParameter("@nome_cidade",
-               SqlDbType.VarChar));
-                mycommand.Parameters.Add(new SqlParameter("@uf_cidade",
-               SqlDbType.Char));
+                mycommand.Parameters.Add(new SqlParameter("@id_cidade", SqlDbType.Int));
+                mycommand.Parameters.Add(new SqlParameter("@nome_cidade", SqlDbType.VarChar));
+                mycommand.Parameters.Add(new SqlParameter("@uf_cidade", SqlDbType.Char));
                 mycommand.Parameters["@id_cidade"].Value = idcidade;
                 mycommand.Parameters["@nome_cidade"].Value = nomecidade;
                 mycommand.Parameters["@uf_cidade"].Value = ufcidade;
