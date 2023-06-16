@@ -31,6 +31,8 @@ namespace PContato0030482223003.Formularios
                 txtBoxCelularContato.DataBindings.Add("TEXT", _bindingSourceContato, "cel_contato");
                 txtBoxEmailContato.DataBindings.Add("TEXT", _bindingSourceContato, "email_contato");
                 dtPkDataContato.DataBindings.Add("TEXT", _bindingSourceContato, "dtcadastro_contato");
+                btnCancelar.Enabled = false;
+                btnSalvar.Enabled = false;
 
                 //carrega dados da cidade
                 Cidade Cid = new Cidade();
@@ -38,14 +40,14 @@ namespace PContato0030482223003.Formularios
                 cmBoxCidadeContato.DataSource = _dataSetCidade.Tables["Cidade"];
 
                 //campo que será mostrado para o usuário
-                cmBoxCidadeContato.DisplayMember = "NOME CIDADE";
+                cmBoxCidadeContato.DisplayMember = "NOME_CIDADE";
 
                 //campo que é a chave da tabela cidade e que liga com a tabela de contato
-                cmBoxCidadeContato.ValueMember = "ID CIDADE";
+                cmBoxCidadeContato.ValueMember = "ID_CIDADE";
 
                 //no momento de linkar os componente com o Binding Source linkar também o
                 cmBoxCidadeContato.DataBindings.Add("SelectedValue", _bindingSourceContato,
-                    "CIDADE ID CIDADE"); 
+                    "CIDADE_ID_CIDADE"); 
             }
             catch (Exception ex)
             {
@@ -67,7 +69,7 @@ namespace PContato0030482223003.Formularios
             txtBoxEmailContato.Enabled = true;
             cmBoxCidadeContato.Enabled = true;
             dtPkDataContato.Enabled = true;
-
+            cmBoxCidadeContato.SelectedItem = cmBoxCidadeContato.Items[0];
             btnSalvar.Enabled = true;
             btnAlterar.Enabled = false;
             btnNovo.Enabled = false;
@@ -239,6 +241,12 @@ namespace PContato0030482223003.Formularios
             btnAlterar.Enabled = true;
             btnNovo.Enabled = true;
             btnExcluir.Enabled = true;
+        }
+
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

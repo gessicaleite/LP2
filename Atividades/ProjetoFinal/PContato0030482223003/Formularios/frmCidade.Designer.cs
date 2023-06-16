@@ -321,7 +321,7 @@
             this.btnAlterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(24, 24);
-            this.btnAlterar.Text = "ATUALIZAR";
+            this.btnAlterar.Text = "ALTERAR";
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
@@ -352,6 +352,7 @@
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(24, 24);
             this.btnSair.Text = "SAIR";
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmCidade
             // 
