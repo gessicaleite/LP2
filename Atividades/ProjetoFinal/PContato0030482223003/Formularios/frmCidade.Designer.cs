@@ -70,6 +70,31 @@
             this.cbxEstado.Enabled = false;
             this.cbxEstado.FormattingEnabled = true;
             this.cbxEstado.Items.AddRange(new object[] {
+            "AC",
+            "AL",
+            "AM",
+            "AP",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
+            "MG",
+            "MS",
+            "MT",
+            "PA",
+            "PB",
+            "PE",
+            "PI",
+            "PR",
+            "RJ",
+            "RN",
+            "RO",
+            "RR",
+            "RS",
+            "SC",
+            "SE",
             "SP",
             "TO"});
             this.cbxEstado.Location = new System.Drawing.Point(153, 147);
@@ -82,9 +107,9 @@
             this.lblCidadeCidade.AutoSize = true;
             this.lblCidadeCidade.Location = new System.Drawing.Point(42, 147);
             this.lblCidadeCidade.Name = "lblCidadeCidade";
-            this.lblCidadeCidade.Size = new System.Drawing.Size(40, 13);
+            this.lblCidadeCidade.Size = new System.Drawing.Size(21, 13);
             this.lblCidadeCidade.TabIndex = 16;
-            this.lblCidadeCidade.Text = "Cidade";
+            this.lblCidadeCidade.Text = "UF";
             // 
             // txtNomeCidade
             // 
@@ -123,7 +148,7 @@
             this.tabPage2.Controls.Add(this.lblIdCidade);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(768, 341);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Detalhes";
@@ -142,6 +167,7 @@
             this.dgvCidade.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCidade.Location = new System.Drawing.Point(3, 6);
             this.dgvCidade.Name = "dgvCidade";
+            this.dgvCidade.ReadOnly = true;
             this.dgvCidade.RowHeadersWidth = 51;
             this.dgvCidade.Size = new System.Drawing.Size(759, 329);
             this.dgvCidade.TabIndex = 0;
@@ -151,7 +177,7 @@
             this.tabPage1.Controls.Add(this.dgvCidade);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(768, 341);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados";

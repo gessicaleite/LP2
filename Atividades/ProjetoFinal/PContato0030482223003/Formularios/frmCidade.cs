@@ -103,7 +103,7 @@ namespace PContato0030482223003.Formularios
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if (txtNomeCidade.Text == "")
+            if ((String.IsNullOrEmpty(txtNomeCidade.Text)) || (txtNomeCidade.Text.Length < 3 ))
             {
                 MessageBox.Show("Cidade inválida!");
             }

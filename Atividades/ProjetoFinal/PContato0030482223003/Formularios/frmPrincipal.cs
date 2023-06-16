@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace PContato0030482223003.Formularios
@@ -45,6 +46,24 @@ namespace PContato0030482223003.Formularios
             objCidade.MdiParent = this; //PARA APARECER NO "PAI"
             objCidade.WindowState = FormWindowState.Maximized; //PARA MAXIMIZAR
             objCidade.Show();
+        }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (Application.OpenForms.OfType<frmSobre>().Count() > 0)
+            {
+                MessageBox.Show("Formulário já existe!");
+                Application.OpenForms["frmSobre"].BringToFront();
+            }
+            else
+            {
+                frmSobre objSobre = new frmSobre();
+                objSobre.MdiParent = this; //PARA APARECER NO "PAI"
+                objSobre.WindowState = FormWindowState.Maximized; //PARA MAXIMIZAR
+                objSobre.Show();
+            }
+            
         }
     }
 }
