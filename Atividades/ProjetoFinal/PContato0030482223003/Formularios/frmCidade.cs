@@ -27,6 +27,8 @@ namespace PContato0030482223003.Formularios
                 txtId.DataBindings.Add("TEXT", _bindingSourceCidade, "id_cidade");
                 txtNomeCidade.DataBindings.Add("TEXT", _bindingSourceCidade, "nome_cidade");
                 cbxEstado.DataBindings.Add("SelectedItem", _bindingSourceCidade, "uf_cidade"); // AJUSTAR DROPDOWNSTYLE PARA DropDownList PARA NAO DEIXAR INCLUIR
+                btnSalvar.Enabled = false;
+                btnCancelar.Enabled = false;
             }
             catch (Exception ex)
             {
@@ -169,6 +171,11 @@ namespace PContato0030482223003.Formularios
             btnAlterar.Enabled = true;
             btnNovo.Enabled = true;
             btnExcluir.Enabled = true;
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

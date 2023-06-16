@@ -34,7 +34,7 @@ namespace PContato0030482223003.Formularios
 
         private void contatoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (Application.OpenForms.OfType<frmCidade>().Count() > 0)
+            if (Application.OpenForms.OfType<frmContato>().Count() > 0)
             {
                 MessageBox.Show("Form já aberto!");
                 Application.OpenForms["frmContato"].BringToFront();
@@ -53,7 +53,7 @@ namespace PContato0030482223003.Formularios
             if (Application.OpenForms.OfType<frmCidade>().Count() > 0)
             {
                 MessageBox.Show("Form já aberto!");
-                Application.OpenForms["frmContato"].BringToFront();
+                Application.OpenForms["frmCidade"].BringToFront();
             }
             else
             {
@@ -80,6 +80,11 @@ namespace PContato0030482223003.Formularios
                 objSobre.Show();
             }
             
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

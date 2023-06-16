@@ -147,6 +147,7 @@
             // 
             this.txtBoxEmailContato.Enabled = false;
             this.txtBoxEmailContato.Location = new System.Drawing.Point(147, 261);
+            this.txtBoxEmailContato.MaxLength = 100;
             this.txtBoxEmailContato.Name = "txtBoxEmailContato";
             this.txtBoxEmailContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxEmailContato.TabIndex = 9;
@@ -174,6 +175,7 @@
             // 
             this.txtBoxCelularContato.Enabled = false;
             this.txtBoxCelularContato.Location = new System.Drawing.Point(147, 212);
+            this.txtBoxCelularContato.MaxLength = 15;
             this.txtBoxCelularContato.Name = "txtBoxCelularContato";
             this.txtBoxCelularContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxCelularContato.TabIndex = 7;
@@ -182,6 +184,7 @@
             // 
             this.txtBoxEnderecoContato.Enabled = false;
             this.txtBoxEnderecoContato.Location = new System.Drawing.Point(147, 121);
+            this.txtBoxEnderecoContato.MaxLength = 100;
             this.txtBoxEnderecoContato.Name = "txtBoxEnderecoContato";
             this.txtBoxEnderecoContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxEnderecoContato.TabIndex = 5;
@@ -199,6 +202,7 @@
             // 
             this.txtBoxNomeContato.Enabled = false;
             this.txtBoxNomeContato.Location = new System.Drawing.Point(147, 76);
+            this.txtBoxNomeContato.MaxLength = 50;
             this.txtBoxNomeContato.Name = "txtBoxNomeContato";
             this.txtBoxNomeContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxNomeContato.TabIndex = 3;
@@ -234,7 +238,7 @@
             this.btnAlterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(24, 24);
-            this.btnAlterar.Text = "ATUALIZAR";
+            this.btnAlterar.Text = "ALTERAR";
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
@@ -264,6 +268,7 @@
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(24, 24);
             this.btnSair.Text = "SAIR";
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // txtBoxIdContato
             // 

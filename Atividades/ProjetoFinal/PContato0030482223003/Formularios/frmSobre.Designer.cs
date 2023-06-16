@@ -39,13 +39,15 @@
             this.lblDanilo = new System.Windows.Forms.Label();
             this.lblDani = new System.Windows.Forms.Label();
             this.lblBreno = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // raGess
             // 
             this.raGess.AutoSize = true;
             this.raGess.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.raGess.Location = new System.Drawing.Point(572, 402);
+            this.raGess.Location = new System.Drawing.Point(470, 456);
             this.raGess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.raGess.Name = "raGess";
             this.raGess.Size = new System.Drawing.Size(124, 16);
@@ -56,7 +58,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(572, 346);
+            this.label9.Location = new System.Drawing.Point(470, 404);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(124, 16);
@@ -67,7 +69,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(572, 297);
+            this.label10.Location = new System.Drawing.Point(470, 352);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(124, 16);
@@ -78,7 +80,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(572, 246);
+            this.label11.Location = new System.Drawing.Point(470, 300);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(124, 16);
@@ -89,7 +91,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(131, 95);
+            this.label7.Location = new System.Drawing.Point(196, 37);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(745, 25);
@@ -100,7 +102,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(572, 180);
+            this.label6.Location = new System.Drawing.Point(468, 234);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(50, 25);
@@ -111,7 +113,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(220, 180);
+            this.label5.Location = new System.Drawing.Point(116, 234);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 25);
@@ -122,7 +124,7 @@
             // 
             this.lblGess.AutoSize = true;
             this.lblGess.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGess.Location = new System.Drawing.Point(220, 402);
+            this.lblGess.Location = new System.Drawing.Point(118, 456);
             this.lblGess.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGess.Name = "lblGess";
             this.lblGess.Size = new System.Drawing.Size(340, 16);
@@ -133,7 +135,7 @@
             // 
             this.lblDanilo.AutoSize = true;
             this.lblDanilo.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDanilo.Location = new System.Drawing.Point(220, 346);
+            this.lblDanilo.Location = new System.Drawing.Point(118, 404);
             this.lblDanilo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDanilo.Name = "lblDanilo";
             this.lblDanilo.Size = new System.Drawing.Size(232, 16);
@@ -144,7 +146,7 @@
             // 
             this.lblDani.AutoSize = true;
             this.lblDani.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDani.Location = new System.Drawing.Point(220, 297);
+            this.lblDani.Location = new System.Drawing.Point(118, 352);
             this.lblDani.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDani.Name = "lblDani";
             this.lblDani.Size = new System.Drawing.Size(196, 16);
@@ -155,18 +157,29 @@
             // 
             this.lblBreno.AutoSize = true;
             this.lblBreno.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBreno.Location = new System.Drawing.Point(220, 246);
+            this.lblBreno.Location = new System.Drawing.Point(118, 300);
             this.lblBreno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBreno.Name = "lblBreno";
             this.lblBreno.Size = new System.Drawing.Size(196, 16);
             this.lblBreno.TabIndex = 11;
             this.lblBreno.Text = "Breno de Jesus Toledo";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PContato0030482223003.Properties.Resources.Grupo;
+            this.pictureBox1.Location = new System.Drawing.Point(681, 132);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(424, 455);
+            this.pictureBox1.TabIndex = 22;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmSobre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.raGess);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
@@ -182,6 +195,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmSobre";
             this.Text = "frmSobre";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,5 +214,6 @@
         private System.Windows.Forms.Label lblDanilo;
         private System.Windows.Forms.Label lblDani;
         private System.Windows.Forms.Label lblBreno;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
