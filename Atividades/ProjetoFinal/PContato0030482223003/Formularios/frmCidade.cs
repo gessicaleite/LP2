@@ -118,7 +118,6 @@ namespace PContato0030482223003.Formularios
                     if (RegCid.Salvar() > 0)
                     {
                         MessageBox.Show("Cidade adicionada com sucesso!");
-                        btnSalvar.Enabled = false;
                         txtId.Enabled = false;
                         txtNomeCidade.Enabled = false;
                         cbxEstado.Enabled = false;

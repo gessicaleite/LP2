@@ -72,49 +72,44 @@
             this.cbxEstado.Items.AddRange(new object[] {
             "SP",
             "TO"});
-            this.cbxEstado.Location = new System.Drawing.Point(204, 181);
-            this.cbxEstado.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxEstado.Location = new System.Drawing.Point(153, 147);
             this.cbxEstado.Name = "cbxEstado";
-            this.cbxEstado.Size = new System.Drawing.Size(340, 24);
+            this.cbxEstado.Size = new System.Drawing.Size(256, 21);
             this.cbxEstado.TabIndex = 17;
             // 
             // lblCidadeCidade
             // 
             this.lblCidadeCidade.AutoSize = true;
-            this.lblCidadeCidade.Location = new System.Drawing.Point(56, 181);
-            this.lblCidadeCidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCidadeCidade.Location = new System.Drawing.Point(42, 147);
             this.lblCidadeCidade.Name = "lblCidadeCidade";
-            this.lblCidadeCidade.Size = new System.Drawing.Size(51, 16);
+            this.lblCidadeCidade.Size = new System.Drawing.Size(40, 13);
             this.lblCidadeCidade.TabIndex = 16;
             this.lblCidadeCidade.Text = "Cidade";
             // 
             // txtNomeCidade
             // 
             this.txtNomeCidade.Enabled = false;
-            this.txtNomeCidade.Location = new System.Drawing.Point(204, 118);
-            this.txtNomeCidade.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNomeCidade.Location = new System.Drawing.Point(153, 96);
             this.txtNomeCidade.MaxLength = 50;
             this.txtNomeCidade.Name = "txtNomeCidade";
-            this.txtNomeCidade.Size = new System.Drawing.Size(340, 22);
+            this.txtNomeCidade.Size = new System.Drawing.Size(256, 20);
             this.txtNomeCidade.TabIndex = 15;
             // 
             // lblNomeCidade
             // 
             this.lblNomeCidade.AutoSize = true;
-            this.lblNomeCidade.Location = new System.Drawing.Point(56, 123);
-            this.lblNomeCidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNomeCidade.Location = new System.Drawing.Point(42, 100);
             this.lblNomeCidade.Name = "lblNomeCidade";
-            this.lblNomeCidade.Size = new System.Drawing.Size(44, 16);
+            this.lblNomeCidade.Size = new System.Drawing.Size(35, 13);
             this.lblNomeCidade.TabIndex = 14;
             this.lblNomeCidade.Text = "Nome";
             // 
             // lblIdCidade
             // 
             this.lblIdCidade.AutoSize = true;
-            this.lblIdCidade.Location = new System.Drawing.Point(56, 70);
-            this.lblIdCidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIdCidade.Location = new System.Drawing.Point(42, 57);
             this.lblIdCidade.Name = "lblIdCidade";
-            this.lblIdCidade.Size = new System.Drawing.Size(20, 16);
+            this.lblIdCidade.Size = new System.Drawing.Size(18, 13);
             this.lblIdCidade.TabIndex = 12;
             this.lblIdCidade.Text = "ID";
             // 
@@ -126,11 +121,10 @@
             this.tabPage2.Controls.Add(this.lblNomeCidade);
             this.tabPage2.Controls.Add(this.txtId);
             this.tabPage2.Controls.Add(this.lblIdCidade);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1027, 423);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(768, 341);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Detalhes";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -138,30 +132,27 @@
             // txtId
             // 
             this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(204, 65);
-            this.txtId.Margin = new System.Windows.Forms.Padding(4);
+            this.txtId.Location = new System.Drawing.Point(153, 53);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(340, 22);
+            this.txtId.Size = new System.Drawing.Size(256, 20);
             this.txtId.TabIndex = 13;
             // 
             // dgvCidade
             // 
             this.dgvCidade.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCidade.Location = new System.Drawing.Point(0, 0);
-            this.dgvCidade.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvCidade.Location = new System.Drawing.Point(3, 6);
             this.dgvCidade.Name = "dgvCidade";
             this.dgvCidade.RowHeadersWidth = 51;
-            this.dgvCidade.Size = new System.Drawing.Size(1024, 420);
+            this.dgvCidade.Size = new System.Drawing.Size(759, 329);
             this.dgvCidade.TabIndex = 0;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dgvCidade);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1027, 423);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(768, 341);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -170,11 +161,10 @@
             // 
             this.tbCidade.Controls.Add(this.tabPage1);
             this.tbCidade.Controls.Add(this.tabPage2);
-            this.tbCidade.Location = new System.Drawing.Point(16, 95);
-            this.tbCidade.Margin = new System.Windows.Forms.Padding(4);
+            this.tbCidade.Location = new System.Drawing.Point(12, 77);
             this.tbCidade.Name = "tbCidade";
             this.tbCidade.SelectedIndex = 0;
-            this.tbCidade.Size = new System.Drawing.Size(1035, 452);
+            this.tbCidade.Size = new System.Drawing.Size(776, 367);
             this.tbCidade.TabIndex = 4;
             // 
             // bnvCidade
@@ -206,15 +196,15 @@
             this.bnvCidade.MovePreviousItem = this.toolStripButton4;
             this.bnvCidade.Name = "bnvCidade";
             this.bnvCidade.PositionItem = this.toolStripTextBox1;
-            this.bnvCidade.Size = new System.Drawing.Size(1067, 27);
+            this.bnvCidade.Size = new System.Drawing.Size(800, 27);
             this.bnvCidade.TabIndex = 5;
             this.bnvCidade.Text = "bindingNavigator2";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(45, 24);
-            this.toolStripLabel1.Text = "of {0}";
+            this.toolStripLabel1.Size = new System.Drawing.Size(37, 24);
+            this.toolStripLabel1.Text = "de {0}";
             this.toolStripLabel1.ToolTipText = "Número total de itens";
             // 
             // toolStripButton3
@@ -223,7 +213,7 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton3.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton3.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton3.Text = "Mover primeiro";
             // 
             // toolStripButton4
@@ -232,7 +222,7 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton4.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton4.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton4.Text = "Mover anterior";
             // 
             // toolStripSeparator1
@@ -246,7 +236,7 @@
             this.toolStripTextBox1.AutoSize = false;
             this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(65, 27);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(50, 23);
             this.toolStripTextBox1.Text = "0";
             this.toolStripTextBox1.ToolTipText = "Posição atual";
             // 
@@ -261,7 +251,7 @@
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton5.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton5.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton5.Text = "Mover próximo";
             // 
             // toolStripButton6
@@ -270,7 +260,7 @@
             this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton6.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton6.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton6.Text = "Mover último";
             // 
             // toolStripSeparator3
@@ -284,8 +274,8 @@
             this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(29, 24);
-            this.btnNovo.Text = "toolStripButton6";
+            this.btnNovo.Size = new System.Drawing.Size(24, 24);
+            this.btnNovo.Text = "ADICIONAR";
             this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnSalvar
@@ -294,8 +284,8 @@
             this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
             this.btnSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(29, 24);
-            this.btnSalvar.Text = "toolStripButton5";
+            this.btnSalvar.Size = new System.Drawing.Size(24, 24);
+            this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnAlterar
@@ -304,8 +294,8 @@
             this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
             this.btnAlterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(29, 24);
-            this.btnAlterar.Text = "toolStripButton4";
+            this.btnAlterar.Size = new System.Drawing.Size(24, 24);
+            this.btnAlterar.Text = "ATUALIZAR";
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
@@ -314,8 +304,8 @@
             this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
             this.btnExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(29, 24);
-            this.btnExcluir.Text = "toolStripButton3";
+            this.btnExcluir.Size = new System.Drawing.Size(24, 24);
+            this.btnExcluir.Text = "DELETAR";
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnCancelar
@@ -324,8 +314,8 @@
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(29, 24);
-            this.btnCancelar.Text = "toolStripButton2";
+            this.btnCancelar.Size = new System.Drawing.Size(24, 24);
+            this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnSair
@@ -334,17 +324,16 @@
             this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
             this.btnSair.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(29, 24);
-            this.btnSair.Text = "toolStripButton1";
+            this.btnSair.Size = new System.Drawing.Size(24, 24);
+            this.btnSair.Text = "SAIR";
             // 
             // frmCidade
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 607);
+            this.ClientSize = new System.Drawing.Size(800, 493);
             this.Controls.Add(this.bnvCidade);
             this.Controls.Add(this.tbCidade);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCidade";
             this.Text = "frmCidade";
             this.Load += new System.EventHandler(this.frmCidade_Load);

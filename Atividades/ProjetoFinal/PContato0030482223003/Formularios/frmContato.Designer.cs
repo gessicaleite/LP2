@@ -62,14 +62,14 @@
             this.lblIdContato = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvContato = new System.Windows.Forms.DataGridView();
-            this.tbContato = new System.Windows.Forms.TabPage();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tbContato = new System.Windows.Forms.TabControl();
             ((System.ComponentModel.ISupportInitialize)(this.bnvContato)).BeginInit();
             this.bnvContato.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContato)).BeginInit();
+            this.tabPage1.SuspendLayout();
             this.tbContato.SuspendLayout();
-            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStripTextBox1
@@ -78,7 +78,7 @@
             this.toolStripTextBox1.AutoSize = false;
             this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
-            this.toolStripTextBox1.Size = new System.Drawing.Size(65, 27);
+            this.toolStripTextBox1.Size = new System.Drawing.Size(50, 23);
             this.toolStripTextBox1.Text = "0";
             this.toolStripTextBox1.ToolTipText = "Posição atual";
             // 
@@ -88,7 +88,7 @@
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton5.Size = new System.Drawing.Size(29, 24);
+            this.toolStripButton5.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton5.Text = "Mover próximo";
             // 
             // toolStripButton6
@@ -97,32 +97,30 @@
             this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton6.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton6.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton6.Text = "Mover último";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // dtPkDataContato
             // 
             this.dtPkDataContato.CustomFormat = "dd/MM/yyyy HH:mm ";
             this.dtPkDataContato.Enabled = false;
             this.dtPkDataContato.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtPkDataContato.Location = new System.Drawing.Point(196, 378);
-            this.dtPkDataContato.Margin = new System.Windows.Forms.Padding(4);
+            this.dtPkDataContato.Location = new System.Drawing.Point(147, 307);
             this.dtPkDataContato.Name = "dtPkDataContato";
-            this.dtPkDataContato.Size = new System.Drawing.Size(265, 22);
+            this.dtPkDataContato.Size = new System.Drawing.Size(200, 20);
             this.dtPkDataContato.TabIndex = 14;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(48, 379);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(36, 308);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 16);
+            this.label7.Size = new System.Drawing.Size(30, 13);
             this.label7.TabIndex = 12;
             this.label7.Text = "Data";
             // 
@@ -131,38 +129,34 @@
             this.cmBoxCidadeContato.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmBoxCidadeContato.Enabled = false;
             this.cmBoxCidadeContato.FormattingEnabled = true;
-            this.cmBoxCidadeContato.Location = new System.Drawing.Point(196, 208);
-            this.cmBoxCidadeContato.Margin = new System.Windows.Forms.Padding(4);
+            this.cmBoxCidadeContato.Location = new System.Drawing.Point(147, 169);
             this.cmBoxCidadeContato.Name = "cmBoxCidadeContato";
-            this.cmBoxCidadeContato.Size = new System.Drawing.Size(340, 24);
+            this.cmBoxCidadeContato.Size = new System.Drawing.Size(256, 21);
             this.cmBoxCidadeContato.TabIndex = 11;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(48, 208);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(36, 169);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 16);
+            this.label6.Size = new System.Drawing.Size(40, 13);
             this.label6.TabIndex = 10;
             this.label6.Text = "Cidade";
             // 
             // txtBoxEmailContato
             // 
             this.txtBoxEmailContato.Enabled = false;
-            this.txtBoxEmailContato.Location = new System.Drawing.Point(196, 321);
-            this.txtBoxEmailContato.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxEmailContato.Location = new System.Drawing.Point(147, 261);
             this.txtBoxEmailContato.Name = "txtBoxEmailContato";
-            this.txtBoxEmailContato.Size = new System.Drawing.Size(340, 22);
+            this.txtBoxEmailContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxEmailContato.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(48, 325);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(36, 264);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 16);
+            this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "E-mail";
             // 
@@ -172,60 +166,56 @@
             this.btnNovo.Image = ((System.Drawing.Image)(resources.GetObject("btnNovo.Image")));
             this.btnNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovo.Name = "btnNovo";
-            this.btnNovo.Size = new System.Drawing.Size(29, 28);
-            this.btnNovo.Text = "toolStripButton6";
+            this.btnNovo.Size = new System.Drawing.Size(24, 24);
+            this.btnNovo.Text = "ADICIONAR";
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // txtBoxCelularContato
             // 
             this.txtBoxCelularContato.Enabled = false;
-            this.txtBoxCelularContato.Location = new System.Drawing.Point(196, 261);
-            this.txtBoxCelularContato.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxCelularContato.Location = new System.Drawing.Point(147, 212);
             this.txtBoxCelularContato.Name = "txtBoxCelularContato";
-            this.txtBoxCelularContato.Size = new System.Drawing.Size(340, 22);
+            this.txtBoxCelularContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxCelularContato.TabIndex = 7;
             // 
             // txtBoxEnderecoContato
             // 
             this.txtBoxEnderecoContato.Enabled = false;
-            this.txtBoxEnderecoContato.Location = new System.Drawing.Point(196, 149);
-            this.txtBoxEnderecoContato.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxEnderecoContato.Location = new System.Drawing.Point(147, 121);
             this.txtBoxEnderecoContato.Name = "txtBoxEnderecoContato";
-            this.txtBoxEnderecoContato.Size = new System.Drawing.Size(340, 22);
+            this.txtBoxEnderecoContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxEnderecoContato.TabIndex = 5;
             // 
             // lblEnderecoContato
             // 
             this.lblEnderecoContato.AutoSize = true;
-            this.lblEnderecoContato.Location = new System.Drawing.Point(48, 154);
-            this.lblEnderecoContato.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEnderecoContato.Location = new System.Drawing.Point(36, 125);
             this.lblEnderecoContato.Name = "lblEnderecoContato";
-            this.lblEnderecoContato.Size = new System.Drawing.Size(66, 16);
+            this.lblEnderecoContato.Size = new System.Drawing.Size(53, 13);
             this.lblEnderecoContato.TabIndex = 4;
             this.lblEnderecoContato.Text = "Endereço";
             // 
             // txtBoxNomeContato
             // 
             this.txtBoxNomeContato.Enabled = false;
-            this.txtBoxNomeContato.Location = new System.Drawing.Point(196, 94);
-            this.txtBoxNomeContato.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxNomeContato.Location = new System.Drawing.Point(147, 76);
             this.txtBoxNomeContato.Name = "txtBoxNomeContato";
-            this.txtBoxNomeContato.Size = new System.Drawing.Size(340, 22);
+            this.txtBoxNomeContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxNomeContato.TabIndex = 3;
             // 
             // lblNomeContato
             // 
             this.lblNomeContato.AutoSize = true;
-            this.lblNomeContato.Location = new System.Drawing.Point(48, 98);
-            this.lblNomeContato.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNomeContato.Location = new System.Drawing.Point(36, 80);
             this.lblNomeContato.Name = "lblNomeContato";
-            this.lblNomeContato.Size = new System.Drawing.Size(44, 16);
+            this.lblNomeContato.Size = new System.Drawing.Size(35, 13);
             this.lblNomeContato.TabIndex = 2;
             this.lblNomeContato.Text = "Nome";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // btnSalvar
             // 
@@ -233,8 +223,9 @@
             this.btnSalvar.Image = ((System.Drawing.Image)(resources.GetObject("btnSalvar.Image")));
             this.btnSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(29, 28);
-            this.btnSalvar.Text = "toolStripButton5";
+            this.btnSalvar.Size = new System.Drawing.Size(24, 24);
+            this.btnSalvar.Text = "SALVAR";
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnAlterar
             // 
@@ -242,8 +233,9 @@
             this.btnAlterar.Image = ((System.Drawing.Image)(resources.GetObject("btnAlterar.Image")));
             this.btnAlterar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(29, 28);
-            this.btnAlterar.Text = "toolStripButton4";
+            this.btnAlterar.Size = new System.Drawing.Size(24, 24);
+            this.btnAlterar.Text = "ATUALIZAR";
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
             // 
@@ -251,16 +243,16 @@
             this.btnExcluir.Image = ((System.Drawing.Image)(resources.GetObject("btnExcluir.Image")));
             this.btnExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(29, 28);
-            this.btnExcluir.Text = "toolStripButton3";
+            this.btnExcluir.Size = new System.Drawing.Size(24, 24);
+            this.btnExcluir.Text = "DELETAR";
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(48, 266);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(36, 216);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 16);
+            this.label4.Size = new System.Drawing.Size(39, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Celular";
             // 
@@ -270,16 +262,15 @@
             this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
             this.btnSair.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(29, 28);
-            this.btnSair.Text = "toolStripButton1";
+            this.btnSair.Size = new System.Drawing.Size(24, 24);
+            this.btnSair.Text = "SAIR";
             // 
             // txtBoxIdContato
             // 
             this.txtBoxIdContato.Enabled = false;
-            this.txtBoxIdContato.Location = new System.Drawing.Point(196, 41);
-            this.txtBoxIdContato.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBoxIdContato.Location = new System.Drawing.Point(147, 33);
             this.txtBoxIdContato.Name = "txtBoxIdContato";
-            this.txtBoxIdContato.Size = new System.Drawing.Size(340, 22);
+            this.txtBoxIdContato.Size = new System.Drawing.Size(256, 20);
             this.txtBoxIdContato.TabIndex = 1;
             // 
             // toolStripButton4
@@ -288,7 +279,7 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton4.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton4.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton4.Text = "Mover anterior";
             // 
             // toolStripButton3
@@ -297,14 +288,14 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.RightToLeftAutoMirrorImage = true;
-            this.toolStripButton3.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton3.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton3.Text = "Mover primeiro";
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(45, 28);
-            this.toolStripLabel1.Text = "of {0}";
+            this.toolStripLabel1.Size = new System.Drawing.Size(37, 24);
+            this.toolStripLabel1.Text = "de {0}";
             this.toolStripLabel1.ToolTipText = "Número total de itens";
             // 
             // bnvContato
@@ -336,14 +327,14 @@
             this.bnvContato.MovePreviousItem = this.toolStripButton4;
             this.bnvContato.Name = "bnvContato";
             this.bnvContato.PositionItem = this.toolStripTextBox1;
-            this.bnvContato.Size = new System.Drawing.Size(1067, 27);
+            this.bnvContato.Size = new System.Drawing.Size(800, 27);
             this.bnvContato.TabIndex = 4;
             this.bnvContato.Text = "bindingNavigator2";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // btnCancelar
             // 
@@ -351,16 +342,16 @@
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(29, 28);
-            this.btnCancelar.Text = "toolStripButton2";
+            this.btnCancelar.Size = new System.Drawing.Size(24, 24);
+            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // lblIdContato
             // 
             this.lblIdContato.AutoSize = true;
-            this.lblIdContato.Location = new System.Drawing.Point(48, 46);
-            this.lblIdContato.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIdContato.Location = new System.Drawing.Point(36, 37);
             this.lblIdContato.Name = "lblIdContato";
-            this.lblIdContato.Size = new System.Drawing.Size(20, 16);
+            this.lblIdContato.Size = new System.Drawing.Size(18, 13);
             this.lblIdContato.TabIndex = 0;
             this.lblIdContato.Text = "ID";
             // 
@@ -380,11 +371,10 @@
             this.tabPage2.Controls.Add(this.lblNomeContato);
             this.tabPage2.Controls.Add(this.txtBoxIdContato);
             this.tabPage2.Controls.Add(this.lblIdContato);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1027, 463);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(768, 374);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Detalhes";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -392,55 +382,52 @@
             // dgvContato
             // 
             this.dgvContato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvContato.Location = new System.Drawing.Point(52, 48);
-            this.dgvContato.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvContato.Location = new System.Drawing.Point(6, 6);
             this.dgvContato.Name = "dgvContato";
             this.dgvContato.RowHeadersWidth = 51;
-            this.dgvContato.Size = new System.Drawing.Size(836, 347);
+            this.dgvContato.Size = new System.Drawing.Size(756, 362);
             this.dgvContato.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.dgvContato);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(768, 374);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Dados";
+            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tbContato
             // 
-            this.tbContato.Controls.Add(this.dgvContato);
-            this.tbContato.Location = new System.Drawing.Point(4, 25);
-            this.tbContato.Margin = new System.Windows.Forms.Padding(4);
+            this.tbContato.Controls.Add(this.tabPage1);
+            this.tbContato.Controls.Add(this.tabPage2);
+            this.tbContato.Location = new System.Drawing.Point(12, 77);
             this.tbContato.Name = "tbContato";
-            this.tbContato.Padding = new System.Windows.Forms.Padding(4);
-            this.tbContato.Size = new System.Drawing.Size(1027, 463);
-            this.tbContato.TabIndex = 0;
-            this.tbContato.Text = "Dados";
-            this.tbContato.UseVisualStyleBackColor = true;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tbContato);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(16, 54);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1035, 492);
-            this.tabControl1.TabIndex = 3;
-            this.tabControl1.Tag = "";
+            this.tbContato.SelectedIndex = 0;
+            this.tbContato.Size = new System.Drawing.Size(776, 400);
+            this.tbContato.TabIndex = 3;
+            this.tbContato.Tag = "";
             // 
             // frmContato
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 497);
             this.Controls.Add(this.bnvContato);
-            this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Controls.Add(this.tbContato);
             this.Name = "frmContato";
             this.Text = "frmContato";
+            this.Load += new System.EventHandler(this.frmContato_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bnvContato)).EndInit();
             this.bnvContato.ResumeLayout(false);
             this.bnvContato.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContato)).EndInit();
+            this.tabPage1.ResumeLayout(false);
             this.tbContato.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -480,7 +467,7 @@
         private System.Windows.Forms.Label lblIdContato;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.DataGridView dgvContato;
-        private System.Windows.Forms.TabPage tbContato;
-        public System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        public System.Windows.Forms.TabControl tbContato;
     }
 }
