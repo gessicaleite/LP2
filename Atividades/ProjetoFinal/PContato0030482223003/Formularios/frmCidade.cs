@@ -32,7 +32,6 @@ namespace PContato0030482223003.Formularios
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
 
         private void btnNovo_Click(object sender, EventArgs e)

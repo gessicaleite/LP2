@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace PContato0030482223003.Formularios
@@ -33,18 +34,34 @@ namespace PContato0030482223003.Formularios
 
         private void contatoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmContato objContato = new frmContato();
-            objContato.MdiParent = this; //PARA APARECER NO "PAI"
-            objContato.WindowState = FormWindowState.Maximized; //PARA MAXIMIZAR
-            objContato.Show();
+            if (Application.OpenForms.OfType<frmCidade>().Count() > 0)
+            {
+                MessageBox.Show("Form já aberto!");
+                Application.OpenForms["frmContato"].BringToFront();
+            }
+            else
+            {
+                frmContato objContato = new frmContato();
+                objContato.MdiParent = this; //PARA APARECER NO "PAI"
+                objContato.WindowState = FormWindowState.Maximized; //PARA MAXIMIZAR
+                objContato.Show();
+            }
         }
 
         private void cidadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCidade objCidade= new frmCidade();
-            objCidade.MdiParent = this; //PARA APARECER NO "PAI"
-            objCidade.WindowState = FormWindowState.Maximized; //PARA MAXIMIZAR
-            objCidade.Show();
+            if (Application.OpenForms.OfType<frmCidade>().Count() > 0)
+            {
+                MessageBox.Show("Form já aberto!");
+                Application.OpenForms["frmContato"].BringToFront();
+            }
+            else
+            {
+                frmCidade objCidade = new frmCidade();
+                objCidade.MdiParent = this; //PARA APARECER NO "PAI"
+                objCidade.WindowState = FormWindowState.Maximized; //PARA MAXIMIZAR
+                objCidade.Show();
+            }
         }
     }
 }

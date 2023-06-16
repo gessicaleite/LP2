@@ -38,14 +38,14 @@ namespace PContato0030482223003.Formularios
                 cmBoxCidadeContato.DataSource = _dataSetCidade.Tables["Cidade"];
 
                 //campo que será mostrado para o usuário
-                cmBoxCidadeContato.DisplayMember = "nome_cidade";
+                cmBoxCidadeContato.DisplayMember = "NOME CIDADE";
 
                 //campo que é a chave da tabela cidade e que liga com a tabela de contato
-                cmBoxCidadeContato.ValueMember = "id_cidade";
+                cmBoxCidadeContato.ValueMember = "ID CIDADE";
 
                 //no momento de linkar os componente com o Binding Source linkar também o
                 cmBoxCidadeContato.DataBindings.Add("SelectedValue", _bindingSourceContato,
-                    "cidade_id_cidade"); 
+                    "CIDADE ID CIDADE"); 
             }
             catch (Exception ex)
             {
@@ -78,9 +78,25 @@ namespace PContato0030482223003.Formularios
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if (txtBoxNomeContato.Text == "")
+            if (string.IsNullOrEmpty(txtBoxNomeContato.Text) || txtBoxNomeContato.Text.Length < 10 )
             {
-                MessageBox.Show("Contato inválido!");
+                MessageBox.Show("Favor inserir um nome válido!");
+                txtBoxNomeContato.Focus();
+            }
+            else if(string.IsNullOrEmpty(txtBoxEnderecoContato.Text) || txtBoxEnderecoContato.Text.Length < 10)
+            {
+                MessageBox.Show("Favor inserir um endereço válido!");
+                txtBoxEnderecoContato.Focus();
+            }
+            else if(string.IsNullOrEmpty(txtBoxCelularContato.Text) || txtBoxNomeContato.Text.Length < 10)
+            {
+                MessageBox.Show("Favor inserir um celular válido!");
+                txtBoxCelularContato.Focus();
+            }
+            else if (string.IsNullOrEmpty(txtBoxEmailContato.Text) || txtBoxNomeContato.Text.Length < 10)
+            {
+                MessageBox.Show("Favor inserir um email válido!");
+                txtBoxEmailContato.Focus();
             }
             else
             {
@@ -88,7 +104,6 @@ namespace PContato0030482223003.Formularios
                 RegCont.IdContato = Convert.ToInt16(txtBoxIdContato.Text);
                 RegCont.NomeContato = txtBoxNomeContato.Text;
                 RegCont.EndContato = txtBoxEnderecoContato.Text;
-                //var teste = cmBoxCidadeContato.SelectedValue;
                 RegCont.CidadeIdContato = (int)cmBoxCidadeContato.SelectedValue;
                 RegCont.CelContato = txtBoxCelularContato.Text;
                 RegCont.EmailContato = txtBoxEmailContato.Text;
@@ -189,7 +204,6 @@ namespace PContato0030482223003.Formularios
                 RegCont.IdContato = Convert.ToInt16(txtBoxIdContato.Text);
                 RegCont.NomeContato = txtBoxNomeContato.Text;
                 RegCont.EndContato = txtBoxEnderecoContato.Text;
-                //RegCont.CidadeIdContato = Convert.ToInt32(cmBoxCidadeContato.SelectedValue);
                 RegCont.CelContato = txtBoxCelularContato.Text;
                 RegCont.EmailContato = txtBoxEmailContato.Text;
 
