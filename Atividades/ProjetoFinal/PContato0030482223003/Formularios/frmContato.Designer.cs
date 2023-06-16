@@ -384,6 +384,7 @@
             this.dgvContato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvContato.Location = new System.Drawing.Point(6, 6);
             this.dgvContato.Name = "dgvContato";
+            this.dgvContato.ReadOnly = true;
             this.dgvContato.RowHeadersWidth = 51;
             this.dgvContato.Size = new System.Drawing.Size(756, 362);
             this.dgvContato.TabIndex = 0;
