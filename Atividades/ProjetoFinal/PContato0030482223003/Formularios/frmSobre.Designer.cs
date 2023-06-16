@@ -84,7 +84,6 @@
             this.label11.Size = new System.Drawing.Size(124, 16);
             this.label11.TabIndex = 18;
             this.label11.Text = "0030482223047";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label7
             // 
@@ -140,7 +139,6 @@
             this.lblDanilo.Size = new System.Drawing.Size(232, 16);
             this.lblDanilo.TabIndex = 13;
             this.lblDanilo.Text = "Danilo Gennari dos Santos";
-            this.lblDanilo.Click += new System.EventHandler(this.lblDanilo_Click);
             // 
             // lblDani
             // 

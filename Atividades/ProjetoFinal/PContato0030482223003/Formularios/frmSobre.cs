@@ -8,15 +8,5 @@ namespace PContato0030482223003.Formularios
         {
             InitializeComponent();
         }
-
-        private void label11_Click(object sender, System.EventArgs e)
-        {
-
-        }
-
-        private void lblDanilo_Click(object sender, System.EventArgs e)
-        {
-
-        }
     }
 }
